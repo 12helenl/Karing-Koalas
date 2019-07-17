@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.title{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  text-align: center;
+
+
+}
+
+
+
+.generator{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  text-align: center;
+
+
+
+  position:relative;
+left:0%;
+right:0%;
+bottom:100%;
+top:0%;
+}
