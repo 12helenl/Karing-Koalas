@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  height: 100%
+}
+
+body {
+  min-height: 100%;
+  background-color: blue;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+    text-align: center;
+}
+
+/* #quote {
+  display: flex;
+} */
+
+.kindnessQuote {
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-end;
+ align-items: flex-end;
+ bottom: 0;
+ height: 100%;
+
+
+}
+
+
+
+button {
+  display: flex;
+  background-color:silver;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: flex-end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px 6px;
+}

@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: grey;
+}
+
+li{
+  background-color: #8693AB;
+  display: flex;
+  display: inline;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a{
+  font-family: 'Literata', serif;
+  color:#FCF6E3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:15px;
+}
+
+li:hover{
+  background-color:black;
+}
+
+h1{
+  display:flex;
+  justify-content:center;
+}
