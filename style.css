@@ -4,28 +4,42 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+  background-color: baby-blue
+}
+
 .title{
   display: flex;
   justify-content: center;
-  flex-direction:column;
-  text-align: center;
+    text-align: center;
+}
+
+#quote {
+  display: flex;
+}
+
+.kindnessQuote {
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-end;
+ align-items: flex-end;
+ bottom: 0;
 
 
 }
 
 
 
-.generator{
+button {
   display: flex;
-  justify-content: center;
-  flex-direction:column;
-  text-align: center;
-
-
-
-position:relative;
-left:0%;
-right:0%;
-bottom:100%;
-top:0%;
+  background-color:silver;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: flex-end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px 6px;
 }
