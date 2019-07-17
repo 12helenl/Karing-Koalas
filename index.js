@@ -1,12 +1,12 @@
 var button = $("button");
 
-var supportiveMessages = ["Hello", "there", "mate"]
+var supportiveMessages = ["You are the most perfect you there is", "You are enough", "You make a bigger impact than you realize","Nothing can stop you","You are stunning","You deserve as much love and affection as anyone else","You are not alone"]
 
 // add more later
 
 var stepOne = Math.random()
 
-var random = stepOne *3
+var random = stepOne *7
 var final = Math.floor(random)
 
 
@@ -26,7 +26,7 @@ button.on("click",doSomething);
 function doSomething(){
   var stepOne = Math.random()
 
-  var random = stepOne *3
+  var random = stepOne *7
   var final = Math.floor(random)
   console.log(final);
 
