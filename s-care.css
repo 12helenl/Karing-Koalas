@@ -35,16 +35,17 @@ a{
 h1{
   display:flex;
   justify-content:center;
-}
-
-h1 {
   border: 5px solid;
-  margin-top: 0px;
-  background-color: #6092e0;
+  margin-top: 20px;
+  background-color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  padding: 30px;
 }
-
+.hey {
+  padding: 20px;
+  font-size: 20px;
+}
 /*start of s-care code*/
 h2{
   display: inline;
@@ -54,13 +55,17 @@ h2{
   border: 1px solid green;
   padding-bottom: : 0px;
   margin-bottom: 0;
+  background-color: white;
+  font-size: 20px;
+
 
 }
 .MentalBox {
-padding: 0px;
-border: 1px solid;
-width:300px;
-height: 200px;
+  padding: 0px;
+  border: 1px solid;
+  width:300px;
+  height: 200px;
+  background-color: white;
 }
 
  .EmotionalBox{
@@ -68,12 +73,14 @@ height: 200px;
    width:300px;
    height: 200px;
    padding: 0px;
+   background-color: white;
 
  }
  .PhysicalBox {
    border:1px solid;
    width:300px;
    height: 200px;
+   background-color: white;
  }
 
 .mh{
@@ -113,18 +120,27 @@ border:1px;
   display:inline;
   display: flex;
   justify-content: space-around;
+  margin: 20px;
 }
 
 .boxes{
   display:inline;
   display:flex;
   justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+
 }
 .new{
   display:inline;
   display:flex;
   justify-content: space-around;
 }
+
+body {
+  background-color: #C2E4f0;
+}
+
 
 /* .old { */
   /* display:inline; */
@@ -133,15 +149,17 @@ border:1px;
 /* } */
 .t{
   border:1px solid;
-  width: 175px;
-  height: 320px;
+  /* width: 175px; */
+  /* height: 320px; */
   margin-left: 0px;
+  background-color: white;
 }
 .s{
   border:1px solid;
-  width: 175px;
-  height: 320px;
+  /* width: 175px; */
+  /* height: 320px; */
   margin-left: 0px;
+  background-color: white;
 }
 section {
   display:flex;
