@@ -4,13 +4,75 @@
   box-sizing: border-box;
 }
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color:#e6e6e6;
+}
+
+li{
+  background-color:#94db86;
+  display: flex;
+  display: inline;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a{
+  color:#faf5ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:15px;
+}
+
+li:hover{
+  background-color:#6092e0;
+}
+
+h1{
+  display:flex;
+  justify-content:center;
+}
+
+
+@media screen and (max-width: 1000px){
+  li{
+    display:inline;
+    margin: 0;
+    padding:0;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .navbar{
+    margin:0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  li{
+    display:flex;
+    display: block;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    padding-right: 39%;
+    padding-left: 39%;
+  }
+
 html {
   height: 100%
 }
 
 body {
   min-height: 100%;
-  background-color: blue;
+  background-color: Lavender;
 }
 
 .title{
@@ -19,9 +81,9 @@ body {
     text-align: center;
 }
 
-/* #quote {
+#quote {
   display: flex;
-} */
+}
 
 .kindnessQuote {
   display: flex;
@@ -31,10 +93,12 @@ body {
  bottom: 0;
  height: 100%;
 
-
 }
-
-
+h1{
+  display: flex;
+  justify-content: center;
+    text-align: center;
+}
 
 button {
   display: flex;
@@ -47,4 +111,33 @@ button {
   display: inline-block;
   font-size: 16px;
   margin: 12px 6px;
+}
+
+.stuff{
+border-style: solid;
+border-color: red;
+border-width:thick;
+
+}
+
+.hl{
+display: flex;
+justify-content: space-between;
+padding:45px;
+margin:35px
+}
+
+img {
+  border: 10px solid;
+  flex-direction: row;
+}
+
+
+.hl-info{
+border-style: solid;
+border-color: black;
+border-width:thick;
+width: 500px;
+height: 850px;
+
 }
