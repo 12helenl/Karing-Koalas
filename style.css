@@ -19,9 +19,9 @@ body {
     text-align: center;
 }
 
-/* #quote {
+#quote {
   display: flex;
-} */
+}
 
 .kindnessQuote {
   display: flex;
