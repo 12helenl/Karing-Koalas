@@ -91,7 +91,7 @@ h1{
 
 body {
 background:
-#6092e0
+#C2E4F0
 ;
 
 /* background-image: url(''); */
@@ -166,8 +166,19 @@ button {
 }
 
 
+p {
+font-size: 20px;
+
+}
+
+
 .backbro {
 
   background:white;
 
 }
+
+/* img{
+  display: flex;
+align-items: center;
+} */
