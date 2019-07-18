@@ -80,11 +80,11 @@ h1{
 
 #hotline {
   text-align: center;
-  margin: 20px;
+  margin: 48px;
   /* border: 1px solid black; */
-  background: white;
-  padding-left: 10%;
-  padding-right: 10%;
+  background: GhostWhite;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 body {
@@ -100,9 +100,10 @@ background:
   text-align: center;
   /*margin-right: 20px;*/
   /* border: 1px solid black; */
-  background: white;
-  padding-left: 10%;
-  padding-right:10%;
+  background: GhostWhite;
+  padding-left:15%;
+  padding-right:15%;
+  margin: 20px;
   /* padding-left: 25%; */
   /* padding-right:25%; */
 }
@@ -124,4 +125,13 @@ align-items: baseline;
 .text{
   padding-left: 0;
   padding-right: 0;
+}
+
+
+
+
+
+
+
+
 }
