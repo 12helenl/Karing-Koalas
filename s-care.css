@@ -1,7 +1,7 @@
 h1 {
   border: 5px solid;
   margin-top: 0px;
-  background-color: purple;
+  background-color: #6092e0;
   text-align: center;
   font-size: 40px;
 }
@@ -80,6 +80,17 @@ border:1px;
   display:flex;
   justify-content: space-around;
 }
+.new{
+  display:inline;
+  display:flex;
+  justify-content: space-around;
+}
+
+/* .old { */
+  /* display:inline; */
+  /* display:flex; */
+  /* justify-content: space-around; */
+/* } */
 .t{
   border:1px solid;
   width: 175px;
