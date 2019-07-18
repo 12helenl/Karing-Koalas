@@ -6,20 +6,28 @@ h1 {
   font-size: 40px;
 }
 
+h2{
+  display: inline;
+}
+
 .boxed {
   border: 1px solid green;
-  padding: 10px;
+  padding-bottom: : 0px;
+  margin-bottom: 0;
+
 }
 .MentalBox {
-padding: 10px;
+padding: 0px;
 border: 1px solid;
 width:300px;
 height: 200px;
 }
+
  .EmotionalBox{
    border: 1px solid;
    width:300px;
    height: 200px;
+   padding: 0px;
 
  }
  .PhysicalBox {
@@ -29,21 +37,62 @@ height: 200px;
  }
 
 .mh{
-  justify-content: center;
   display: flex;
-  flex-wrap:
+  flex-direction: row;
 
 }
 .eh{
-  justify-content: center;
   display: flex;
-  flex-wrap:
+  flex-direction: row;
 
 
 }
 .ph{
-  justify-content: center;
   display: flex;
-  flex-wrap:
+  flex-direction: row;
+}
+#m{
+  .parent {
+  display: flex;
+}
+  /* .parent { */
+  /* display: inline-flex; */
+}
 
+
+.tips {
+border:1px;
+}
+
+.all {
+  display:flex;
+  flex-direction: row;
+}
+
+.headers{
+  display:inline;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes{
+  display:inline;
+  display:flex;
+  justify-content: space-around;
+}
+.t{
+  border:1px solid;
+  width: 175px;
+  height: 320px;
+  margin-left: 0px;
+}
+.s{
+  border:1px solid;
+  width: 175px;
+  height: 320px;
+  margin-left: 0px;
+}
+section {
+  display:flex;
+  flex-wrap: nowrap;
 }
