@@ -39,8 +39,8 @@ h1{
   margin-top: 20px;
   background-color: white;
   text-align: center;
-  font-size: 30px;
-  padding: 30px;
+  font-size: 40px;
+  padding: 20px;
 }
 .hey {
   padding: 20px;
@@ -56,7 +56,7 @@ h2{
   padding-bottom: : 0px;
   margin-bottom: 0;
   background-color: white;
-  font-size: 20px;
+  font-size: 25px;
 
 
 }
@@ -66,6 +66,7 @@ h2{
   width:300px;
   height: 200px;
   background-color: white;
+  font-size: 19px;
 }
 
  .EmotionalBox{
@@ -74,6 +75,7 @@ h2{
    height: 200px;
    padding: 0px;
    background-color: white;
+   font-style: 20px;
 
  }
  .PhysicalBox {
@@ -81,6 +83,7 @@ h2{
    width:300px;
    height: 200px;
    background-color: white;
+   font-size: 20px;
  }
 
 .mh{
@@ -153,6 +156,7 @@ body {
   /* height: 320px; */
   margin-left: 0px;
   background-color: white;
+  font-size: 20px;
 }
 .s{
   border:1px solid;
@@ -160,6 +164,7 @@ body {
   /* height: 320px; */
   margin-left: 0px;
   background-color: white;
+  font-size: 20px;
 }
 section {
   display:flex;
