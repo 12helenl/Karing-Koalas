@@ -65,6 +65,11 @@ h1{
     padding-right: 39%;
     padding-left: 39%;
   }
+  .navbar{
+    margin:0;
+    padding: 10px;
+  }
+}
 
 .about {
   text-align: center;
@@ -84,6 +89,7 @@ h1{
 
 body {
 background:
+
 #C2E4F0;
  /* padding: 1%; */
 }
