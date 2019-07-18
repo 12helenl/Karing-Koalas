@@ -1,22 +1,88 @@
 
 *{padding: 0;
-  margin: 8;
+  margin: 0;
   box-sizing: border-box;
   font-family: 'Didact Gothic', sans-serif;
 }
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color:#e6e6e6;
+}
+
+li{
+  background-color:#94db86;
+  display: flex;
+  display: inline;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a{
+  color:#faf5ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:15px;
+}
+
+li:hover{
+  background-color:#6092e0;
+}
+
+h1{
+  display:flex;
+  justify-content:center;
+}
+
+
+@media screen and (max-width: 1000px){
+  li{
+    display:inline;
+    margin: 0;
+    padding:0;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .navbar{
+    margin:0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  li{
+    display:flex;
+    display: block;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    padding-right: 39%;
+    padding-left: 39%;
+  }
+  .navbar{
+    margin:0;
+    padding: 10px;
+  }
+}
 
 .about {
   text-align: center;
   margin: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background: white;
 }
 
 #hotline {
   text-align: center;
   margin: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background: white;
   padding-left: 10%;
   padding-right: 10%;
@@ -24,7 +90,8 @@
 
 body {
 background:
-#EBE7FE;
+
+#C2E4F0;
  /* padding: 1%; */
 }
 
@@ -33,7 +100,7 @@ background:
   display:block;
   text-align: center;
   /*margin-right: 20px;*/
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background: white;
   padding-left: 10%;
   padding-right:10%;
