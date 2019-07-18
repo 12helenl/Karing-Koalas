@@ -2,8 +2,7 @@
 *{padding: 0;
   margin: 8;
   box-sizing: border-box;
-
-
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 
@@ -12,34 +11,51 @@
   margin: 20px;
   border: 1px solid black;
   background: white;
-
-  display: flex;
- flex-direction: row;
 }
 
-.hotline {
-  background: grey;
-  text-align: center;
+#hotline {
   text-align: center;
   margin: 20px;
   border: 1px solid black;
   background: white;
-  display: flex;
-
-   flex-basis: 30%;
-
-   flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 body {
-background: pink;
+background:
+#EBE7FE;
+ /* padding: 1%; */
 }
 
-.notalone{
-  background: purple;
+#notalone{
+  display: flex;
+  display:block;
   text-align: center;
-  text-align: center;
-  margin: 20px;
+  /*margin-right: 20px;*/
   border: 1px solid black;
   background: white;
+  padding-left: 10%;
+  padding-right:10%;
+  /* padding-left: 25%; */
+  /* padding-right:25%; */
+}
+
+h1 {
+text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+
+main {
+  display: flex;
+ flex-direction: row;
+align-items: baseline;
+}
+
+.text{
+  padding-left: 0;
+  padding-right: 0;
 }
