@@ -178,7 +178,9 @@ font-size: 20px;
 
 }
 
-/* img{
+img{
   display: flex;
 align-items: center;
-} */
+
+padding-left: 500px;
+}
