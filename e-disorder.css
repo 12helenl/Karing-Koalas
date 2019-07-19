@@ -126,3 +126,18 @@ align-items: baseline;
   padding-left: 0;
   padding-right: 0;
 }
+p {
+  font-size: 22px;
+}
+
+
+img {
+  border-radius :50%;
+}
+
+
+
+.nono{
+  color:grey;
+  text-decoration: underline;
+}
