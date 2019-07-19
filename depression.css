@@ -108,6 +108,7 @@ background:#C2E4F0;
 
 h1 {
 text-align: center;
+padding-top: 5%
 }
 h2{
   text-align: center;
@@ -132,4 +133,12 @@ align-items: baseline;
 
 .list{
   display:flex;
+}
+
+img{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  margin:5%;
+  display:inline-block;
 }
