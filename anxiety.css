@@ -75,7 +75,7 @@ h1{
   text-align: center;
   margin: 20px;
   /* border: 1px solid black; */
-  background: white;
+  background:GhostWhite;
 }
 
 #hotline {
@@ -134,4 +134,20 @@ align-items: baseline;
 
 
 
+}
+.img{
+display:flex;
+
+
+}
+
+
+.image{
+
+flex-direction: column-reverse;
+padding-left:475px;
+}
+
+.gifs{
+  display:inline;
 }
